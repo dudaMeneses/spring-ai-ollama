@@ -1,0 +1,10 @@
+spring:
+  ai:
+    ollama:
+      base-url: "http://localhost:11434"
+      embedding:
+        model: "llama2"
+        options:
+          top-k: 2
+          top-p: 0.2
+          temperature: 0.5
